@@ -54,8 +54,9 @@ create_expense_table()
 
 # ---------------- EMAIL CONFIG ----------------
 
-GMAIL_ID = "pramod.com19@gmail.com"
-APP_PASSWORD = "akbe amym kmdk yjox"
+
+GMAIL_ID = st.secrets["GMAIL_ID"]
+APP_PASSWORD = st.secrets["APP_PASSWORD"]
 
 
 # -------------------------------------------------
